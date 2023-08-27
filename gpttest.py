@@ -1,5 +1,3 @@
-# export https_proxy=http://127.0.0.1:33210 http_proxy=http://127.0.0.1:33210 all_proxy=socks5://127.0.0.1:33211
-
 import openai 
 openai.api_key = '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'
 
@@ -14,6 +12,5 @@ def use(prompt):
 
 if __name__ == "__main__":
 
-	r = use('How dare you are?')
+	r = use('输入你的问题')
 	print(r)
-
